@@ -273,11 +273,11 @@ Current Phase: Sprint Alpha
 
 | Student ID | Name | Role | Section |
 |------------|------|------|---------|
-| 673380400-8 | ชินวัตร แสนเมือง | Project Architect | sec.2 |
-| 673380085-0 | นันทกร แสวงจิตร | Network & Protocol Engineer | sec.2 |
-| 673380433-3 | เกียรติพงษ์ เผดิมศักดิ์ | AI & Intent System Specialist | sec.2 |
-| 673380086-8 | ภูริ ตั้งพงษ์ | Security & Ethics Analyst | sec.2 |
-| 673380397-1 | ฉัตรนัย ไกรราช | Scrum Lead / Sprint Coordinator | sec.2 |
+| 673380397-1 | ฉัดรนัย ไกรราช | Project Architect | sec.2 |
+| 673380433-3 | เกียรติพงษ์ เผดิมศักดิ์ | Network & Protocol Engineer | sec.2 |
+| 673380086-8 | ภูริ ตั้งพงษ์ | AI & Intent System Specialist | sec.2 |
+| 673380400-8 | ชินวัตร แสนเมือง | Security & DevOps | sec.2 |
+| 673380085-0 | นันทกร แสวงจิตร | Tester / Sprint Coordinator | sec.2 |
 
 ---
 
