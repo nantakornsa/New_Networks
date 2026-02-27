@@ -1,38 +1,40 @@
-# 🧠 Aura-Link Communication Architecture (Mockup)
+#  Aura-Link Communication Architecture (Mockup)
 
-## 📌 System Overview
+##  System Overview
 Aura-Link is a conceptual thought-based communication system that processes emotional and relational signals and routes them through a secure quantum-inspired architecture.
 
 ---
 
-## 🏗 System Architecture Diagram
+##  System Architecture Diagram
+
+## 🔷 ภาพรวมโครงสร้างแบบ Layer
 
 ```mermaid
 graph TD
 
-    subgraph "Layer 1: Input"
-        A[Biological Interface] -- "Biometric Signal" --> B[Aura-Link Protocol]
+    subgraph "Layer 1: รับข้อมูล"
+        A[Biological Interface] --> B[Aura-Link Protocol]
     end
 
-    subgraph "Layer 2: Processing"
-        B -- "Emotion Vector" --> C{Quantum Core Engine}
+    subgraph "Layer 2: ประมวลผล"
+        B --> C{Quantum Core Engine}
     end
 
-    subgraph "Layer 3: Routing & Security"
-        C -- "High Weight (Family/Strong Tie)" --> D[Quantum High-Speed Lane]
-        C -- "Normal Weight (Public/Weak Tie)" --> E[Standard Aura-Link Lane]
+    subgraph "Layer 3: จัดเส้นทางและความปลอดภัย"
+        C -- ความสัมพันธ์สูง --> D[High-Speed Lane]
+        C -- ความสัมพันธ์ปกติ --> E[Standard Lane]
         D --> F{Mind-Wall Firewall}
         E --> F
     end
 
-    subgraph "Layer 4: Output"
-        F --> G[Target Node: Receiver]
+    subgraph "Layer 4: ส่งออก"
+        F --> G[ผู้รับปลายทาง]
     end
 ```
 
 ---
 
-## ⚙️ System Logic Mapping
+##  System Logic Mapping
 
 | เลเยอร์ (Layer) | ส่วนงาน (Component) | โลจิคในโค้ด (Code Logic) | หน้าที่ (Function) |
 |------------------|----------------------|----------------------------|-----------------------------|
@@ -44,7 +46,7 @@ graph TD
 
 ---
 
-## 🔐 Security Concept
+##  Security Concept
 
 - Emotional-weight routing
 - Relationship-based prioritization
@@ -53,7 +55,7 @@ graph TD
 
 ---
 
-## 🚀 Concept Highlights
+##  Concept Highlights
 
 - Emotion Vector Processing  
 - Weighted Relationship Routing  
