@@ -1,0 +1,40 @@
+graph TD
+    %% Global Nodes
+    Internet((Internet)) --> ISP[5G Network / ISP Connectivity]
+    ISP --> Gateway[Edge Gateway <br/><i>IoT Controller</i>]
+
+    %% IoT Devices Section
+    subgraph IoT_Layer [Local Network / Edge]
+        Gateway --> Device1[IoT Device 1 <br/>Sensor]
+        Gateway --> Device2[IoT Device 2 <br/>Camera]
+        Gateway --> DeviceN[IoT Device N <br/>Smart Dev]
+    end
+
+    %% Cloud Section
+    Gateway <==> Cloud[Cloud Infrastructure <br/><i>Virtual Private Cloud</i>]
+
+    subgraph VPC [Cloud Services]
+        Cloud --> LB[Load Balancer]
+        Cloud --> App[App Server <br/>API Service]
+        Cloud --> Monitor[Monitoring System]
+        
+        App --> DB[(Database Server)]
+        LB --> App
+    end
+
+    %% Security Layer
+    VPC --> Security{Security Layer}
+    
+    subgraph Security_Features [Security Controls]
+        Security --- FW[Firewall]
+        Security --- VLAN[VLAN Segmentation]
+        Security --- SSL[SSL/TLS Encryption]
+        Security --- ACL[Access Control - ACL]
+    end
+
+    %% Styling
+    style Internet fill:#f9f,stroke:#333,stroke-width:2px
+    style Gateway fill:#00d2ff,stroke:#333,stroke-width:2px
+    style Cloud fill:#fff,stroke:#333,stroke-width:4px
+    style DB fill:#f96,stroke:#333
+    style Security fill:#ff5f6d,stroke:#333,stroke-width:2px
