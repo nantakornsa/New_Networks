@@ -16,15 +16,19 @@ Neural Communication Network (NCN) คือระบบสื่อสารผ
 User Brain 
 
    ↓
+   
 Neural Biochip
 
    ↓
+   
 Neural Router
 
    ↓
+   
 Neural Communication Protocol (NCP)
 
    ↓
+   
 Target Brain
 
 ---
