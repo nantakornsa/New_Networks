@@ -127,10 +127,10 @@
 
 | รหัสนักศึกษา | ชื่อ | บทบาท | หน้าที่รับผิดชอบ |
 |--------------|------|--------|------------------|
-| 673380086-8 |  ฉัตรนัย ไกรราช  | Cloud Infrastructure Engineer | จัดการ Cloud และ Server |
-| 673380400-8 | ภูริ ตั้งพงษ์ | Network Configuration Specialist | ตั้งค่า VLAN และ Routing |
-| 673380433-3 | เกียรติพงษ์ เผดิมศักดิ์ | Security Engineer | ดูแล Firewall และ Encryption |
-| 673380397-1 | ชินวัตร แสนเมือง | IoT & Integration Developer | เชื่อมต่ออุปกรณ์ IoT |
+| 673380397-1 |  ฉัตรนัย ไกรราช  | Cloud Infrastructure Engineer | จัดการ Cloud และ Server |
+| 673380433-3 | ภูริ ตั้งพงษ์ | Network Configuration Specialist | ตั้งค่า VLAN และ Routing |
+| 673380086-8 | เกียรติพงษ์ เผดิมศักดิ์ | Security Engineer | ดูแล Firewall และ Encryption |
+| 673380400-8 | ชินวัตร แสนเมือง | IoT & Integration Developer | เชื่อมต่ออุปกรณ์ IoT |
 | 673380085-0 | นันทกร แสวงจิตร | Project Manager & System Architect | ออกแบบระบบและบริหารโครงการ |
 
 ---
