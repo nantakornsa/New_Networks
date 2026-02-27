@@ -1,78 +1,82 @@
-# Sprint Plan – New Network Technology Project
+# แผนการดำเนินงาน (Sprint Plan) – โครงการเทคโนโลยีเครือข่ายสมัยใหม่
 
-## Project Overview
-This project aims to design and implement a modern network architecture
-using 5G, IoT, Cloud Infrastructure, and Secure Network Design principles.
+## ภาพรวมโครงการ (Project Overview)
+โครงการนี้มีเป้าหมายเพื่อออกแบบและพัฒนาสถาปัตยกรรมเครือข่ายสมัยใหม่  
+โดยประยุกต์ใช้เทคโนโลยี 5G, IoT, Cloud Infrastructure และหลักการออกแบบเครือข่ายที่มีความปลอดภัยสูง
 
-Duration: 8 Weeks  
-Methodology: Agile (Scrum-based)  
-Sprint Length: 2 Weeks per Sprint  
-
----
-
-# Sprint 1 (Week 1–2)
-## Goal:
-Define requirements and finalize system architecture.
-
-## Tasks:
-- Gather functional & non-functional requirements
-- Research 5G, IoT, and Cloud integration
-- Design High-Level Architecture
-- Select technology stack
-- Define security model
-
-## Deliverables:
-- Architecture_Spec.MD (Finalized)
-- Initial Network Diagram
+ระยะเวลาโครงการ: 8 สัปดาห์  
+รูปแบบการพัฒนา: Agile (Scrum-based)  
+ระยะเวลาแต่ละ Sprint: 2 สัปดาห์  
 
 ---
 
-# Sprint 2 (Week 3–4)
-## Goal:
-Build Core Network Infrastructure
+# Sprint 1 (สัปดาห์ที่ 1–2)
 
-## Tasks:
-- Setup cloud environment
-- Configure virtual network
-- Implement IoT simulation
-- Deploy initial services
-- Setup database system
+## เป้าหมาย:
+กำหนดความต้องการของระบบและสรุปสถาปัตยกรรมหลัก
 
-## Deliverables:
-- Working cloud infrastructure
-- Basic connectivity test results
+## งานที่ต้องดำเนินการ:
+- รวบรวมความต้องการเชิงหน้าที่ (Functional Requirements) และไม่ใช่เชิงหน้าที่ (Non-functional Requirements)
+- ศึกษาการทำงานร่วมกันของ 5G, IoT และ Cloud
+- ออกแบบสถาปัตยกรรมระดับสูง (High-Level Architecture)
+- เลือกเทคโนโลยีที่ใช้ในระบบ
+- กำหนดโมเดลด้านความปลอดภัย
 
----
-
-# Sprint 3 (Week 5–6)
-## Goal:
-Implement Security & Monitoring
-
-## Tasks:
-- Configure Firewall
-- Implement Network Segmentation (VLAN)
-- Apply Encryption (SSL/TLS)
-- Setup monitoring tools
-- Perform penetration testing (basic)
-
-## Deliverables:
-- Secure network configuration
-- Security validation report
+## ผลลัพธ์ที่ส่งมอบ:
+- เอกสาร Architecture_Spec.md (ฉบับสมบูรณ์)
+- แผนภาพโครงสร้างเครือข่ายเบื้องต้น (Initial Network Diagram)
 
 ---
 
-# Sprint 4 (Week 7–8)
-## Goal:
-Testing, Optimization & Final Deployment
+# Sprint 2 (สัปดาห์ที่ 3–4)
 
-## Tasks:
-- System integration testing
-- Performance testing
-- Bug fixing
-- Documentation finalization
-- Final presentation preparation
+## เป้าหมาย:
+สร้างโครงสร้างพื้นฐานเครือข่ายหลัก (Core Network Infrastructure)
 
-## Deliverables:
-- Final working system
-- Full documentation
-- Project presentation
+## งานที่ต้องดำเนินการ:
+- ตั้งค่าสภาพแวดล้อม Cloud
+- กำหนดค่า Virtual Network
+- จำลองการทำงานของอุปกรณ์ IoT
+- ติดตั้งและเปิดใช้งานบริการพื้นฐาน
+- จัดตั้งระบบฐานข้อมูล
+
+## ผลลัพธ์ที่ส่งมอบ:
+- โครงสร้าง Cloud ที่สามารถทำงานได้จริง
+- รายงานผลการทดสอบการเชื่อมต่อพื้นฐาน
+
+---
+
+# Sprint 3 (สัปดาห์ที่ 5–6)
+
+## เป้าหมาย:
+พัฒนาระบบความปลอดภัยและระบบติดตามตรวจสอบ (Monitoring)
+
+## งานที่ต้องดำเนินการ:
+- ตั้งค่า Firewall
+- แบ่งเครือข่ายด้วย VLAN (Network Segmentation)
+- ใช้การเข้ารหัสข้อมูล (SSL/TLS)
+- ติดตั้งเครื่องมือ Monitoring
+- ทดสอบเจาะระบบเบื้องต้น (Basic Penetration Testing)
+
+## ผลลัพธ์ที่ส่งมอบ:
+- โครงสร้างเครือข่ายที่มีความปลอดภัย
+- รายงานการตรวจสอบความปลอดภัย (Security Validation Report)
+
+---
+
+# Sprint 4 (สัปดาห์ที่ 7–8)
+
+## เป้าหมาย:
+ทดสอบ ปรับปรุง และเตรียมส่งมอบระบบ
+
+## งานที่ต้องดำเนินการ:
+- ทดสอบการทำงานร่วมกันของระบบทั้งหมด (System Integration Testing)
+- ทดสอบประสิทธิภาพ (Performance Testing)
+- แก้ไขข้อบกพร่อง (Bug Fixing)
+- จัดทำเอกสารฉบับสมบูรณ์
+- เตรียมความพร้อมสำหรับการนำเสนอผลงาน
+
+## ผลลัพธ์ที่ส่งมอบ:
+- ระบบที่ทำงานได้สมบูรณ์
+- เอกสารโครงการฉบับเต็ม
+- สไลด์และสื่อประกอบการนำเสนอ
