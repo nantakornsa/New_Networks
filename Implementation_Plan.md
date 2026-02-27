@@ -118,7 +118,7 @@
 | 673380086-8 | ภูริ ตั้งพงษ์ | Network Infrastructure Engineer | ออกแบบและตั้งค่า Router |
 | 673380400-8 | ชินวัตร แสนเมือง | Switching & VLAN Specialist | ตั้งค่า VLAN และ Switch |
 | 673380433-3 | เกียรติพงษ์ เผดิมศักดิ์ | Security Engineer | ดูแล ACL และ Firewall |
-| 673380397-1 | ฉัตรนัย ไกรราช | Testing & Monitoring | ทดสอบระบบและวิเคราะห์ Packet |
+| 673380397-1 | ฉัดรนัย ไกรราช | Testing & Monitoring | ทดสอบระบบและวิเคราะห์ Packet |
 | 673380085-0 | นันทกร แสวงจิตร | Project Manager & System Designer | วางแผนโครงการและออกแบบ Architecture |
 
 ---
