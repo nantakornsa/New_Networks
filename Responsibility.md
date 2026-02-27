@@ -31,12 +31,12 @@
 - Intent Recognition
 - Emotion Encoding Model
 
-### Security Analyst
+### Security Analyst & DevOps
 - ออกแบบ Neural Firewall
 - วิเคราะห์ Privacy Risk
 - Data Protection Framework
 
-### Scrum Lead
+### Tester
 - จัดทำ Sprint Plan
 - ควบคุม Timeline
 - รวมเอกสารส่ง
