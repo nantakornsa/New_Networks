@@ -1,187 +1,144 @@
-# 🚀 Implementation Plan
-Neural Communication Network
+# Reframe Document
+## โครงการ: New Network Technology
 
 ---
 
-02_Implementation_Plan.md
-1. Project Overview
+# 1. การทบทวนสถาปัตยกรรม (Architectural Review)
 
-โปรเจค New Network Technology เป็นระบบที่ออกแบบและพัฒนาโครงสร้างเครือข่ายรูปแบบใหม่ เพื่อเพิ่มประสิทธิภาพ ความปลอดภัย และความเสถียรของระบบสื่อสารข้อมูล
+## 1.1 ภาพรวมของระบบ
 
-Implementation Plan ฉบับนี้จัดทำขึ้นเพื่อกำหนดขั้นตอนการพัฒนา ติดตั้ง ทดสอบ และส่งมอบระบบ โดยอ้างอิงตาม Architecture_Spec.MD และดำเนินงานภายใต้แนวคิด Agile (Scrum Framework)
+โครงการ **New Network Technology** มีวัตถุประสงค์เพื่อออกแบบและพัฒนาโครงสร้างเครือข่ายรูปแบบใหม่
+ที่มีความปลอดภัยสูง รองรับการขยายตัว และสามารถทำงานได้อย่างมีประสิทธิภาพ
 
-2. Development Methodology – Agile (Scrum)
-ระยะเวลาโครงการ: 4 สัปดาห์
+ระบบถูกออกแบบให้รองรับ:
+- โครงสร้างเครือข่ายแบบแบ่ง Segment
+- การจัดการ VLAN
+- Routing ระหว่างเครือข่าย
+- ระบบรักษาความปลอดภัยหลายชั้น
+- ความสามารถในการขยายระบบในอนาคต
 
-แบ่งเป็น 2 Sprint (Sprint ละ 2 สัปดาห์)
+สถาปัตยกรรมใช้แนวคิดแบบ Layered Architecture เพื่อให้จัดการและบำรุงรักษาได้ง่าย
 
-กระบวนการทำงาน:
+---
 
-Sprint Planning
+## 1.2 โครงสร้างสถาปัตยกรรม
 
-Daily Standup
+### 1) Core Network Layer
+- Router
+- Routing Protocol
+- การกำหนดเส้นทางข้อมูล
 
-Sprint Review
+### 2) Distribution / Access Layer
+- Switch
+- VLAN
+- Subnetting
+- IP Address Management
 
-Sprint Retrospective
+### 3) Security Layer
+- Firewall
+- Access Control List (ACL)
+- Port Security
+- การกำหนดสิทธิ์การเข้าถึง
 
-3. Implementation Phases
-Phase 1: Requirement Confirmation & Environment Setup
+### 4) Monitoring & Management Layer
+- Network Monitoring Tools
+- Log Management
+- Traffic Analysis
 
-ทบทวน Network Architecture ตามเอกสาร Architecture_Spec
+---
 
-เตรียมเครื่องมือและสภาพแวดล้อม
+## 1.3 หลักการออกแบบระบบ
 
-Network Simulation Tool (เช่น Cisco Packet Tracer / GNS3)
+- ความปลอดภัยเป็นอันดับแรก (Security First)
+- รองรับการขยายตัว (Scalability)
+- ความเสถียรของระบบ (Stability)
+- โครงสร้างแบบแยกส่วน (Modular Design)
+- ง่ายต่อการบำรุงรักษา (Maintainability)
 
-Server / Virtual Machine
+---
 
-OS และเครื่องมือ Config Network
+# 2. การวิเคราะห์การนำไปพัฒนา (Implementation Analysis)
 
-กำหนด IP Addressing Scheme
+## 2.1 เครื่องมือและเทคโนโลยีที่ใช้
 
-ออกแบบ VLAN / Subnetting
+- Cisco Packet Tracer / GNS3
+- Router และ Switch Configuration
+- VLAN & Subnetting
+- Static / Dynamic Routing
+- ACL & Firewall Configuration
+- Wireshark สำหรับวิเคราะห์ Packet
 
-Output:
+---
 
-Network Topology Diagram (ฉบับสมบูรณ์)
+## 2.2 ขั้นตอนการพัฒนา
 
-IP Address Plan
+### Phase 1: เตรียมโครงสร้างพื้นฐาน
+- ออกแบบ Topology
+- วางแผน IP Address
+- แบ่ง VLAN
+- กำหนด Subnet
 
-Phase 2: Core Network Implementation
+### Phase 2: ติดตั้ง Core Network
+- ตั้งค่า Router
+- ตั้งค่า Switch
+- กำหนด Routing
+- ทดสอบการเชื่อมต่อ
 
-ติดตั้งและกำหนดค่า Router
+### Phase 3: เพิ่มระบบความปลอดภัย
+- ตั้งค่า ACL
+- กำหนด Firewall Rules
+- เปิดใช้งาน Port Security
+- ทดสอบการป้องกันการเข้าถึงที่ไม่ได้รับอนุญาต
 
-ตั้งค่า Switch และ VLAN
+### Phase 4: ทดสอบและปรับปรุง
+- ทดสอบ Connectivity
+- ทดสอบ Routing
+- วิเคราะห์ Bandwidth
+- ตรวจสอบ Latency และ Packet Loss
 
-กำหนด Routing Protocol (Static / Dynamic Routing ตาม Architecture)
+---
 
-ตั้งค่า DHCP / DNS (ถ้ามีในสถาปัตยกรรม)
+## 2.3 การวิเคราะห์ความเสี่ยง
 
-Output:
+| ความเสี่ยง | ผลกระทบ | แนวทางป้องกัน |
+|------------|----------|----------------|
+| Config ผิดพลาด | ระบบไม่ทำงาน | Backup Config ทุกครั้ง |
+| IP Conflict | เครื่องเชื่อมต่อไม่ได้ | วางแผน IP อย่างเป็นระบบ |
+| Routing Error | สื่อสารข้าม VLAN ไม่ได้ | ตรวจสอบ Routing Table |
+| ตั้งค่า Security ผิด | ระบบไม่ปลอดภัย | ทดสอบ ACL ทุกครั้ง |
 
-Core Network เชื่อมต่อได้สมบูรณ์
+---
 
-ทดสอบ Ping ข้าม Network Segment ได้
+# 3. การกำหนดบทบาทหน้าที่ (Role Assignment)
 
-Phase 3: Security Configuration
+## โครงสร้างทีมงาน
 
-ตั้งค่า Firewall Rules
+| รหัสนักศึกษา | ชื่อ | บทบาท | หน้าที่ |
+|--------------|------|--------|---------|
+| 673380086-8 | ภูริ ตั้งพงษ์ | Network Infrastructure Engineer | ออกแบบและตั้งค่า Router |
+| 673380400-8 | ชินวัตร แสนเมือง | Switching & VLAN Specialist | ตั้งค่า VLAN และ Switch |
+| 673380433-3 | เกียรติพงษ์ เผดิมศักดิ์ | Security Engineer | ดูแล ACL และ Firewall |
+| 673380397-1 | ฉัตรนัย ไกรราช | Testing & Monitoring | ทดสอบระบบและวิเคราะห์ Packet |
+| 673380085-0 | นันทกร แสวงจิตร | Project Manager & System Designer | วางแผนโครงการและออกแบบ Architecture |
 
-กำหนด Access Control List (ACL)
+---
 
-เปิดใช้งาน Port Security
+## แนวทางการทำงาน
 
-ทดสอบการป้องกัน Unauthorized Access
+- ใช้ Agile Framework
+- แบ่งการทำงานเป็น Sprint
+- ประชุมติดตามความคืบหน้าทุกสัปดาห์
+- ทบทวนและปรับปรุงหลังจบแต่ละ Sprint
 
-Output:
+---
 
-ระบบเครือข่ายมี Layer ความปลอดภัย
+# สรุป
 
-รายงานผลการทดสอบ Security
+เอกสาร Reframe นี้จัดทำขึ้นเพื่อทบทวนและวิเคราะห์:
 
-Phase 4: Testing & Optimization
+- โครงสร้างสถาปัตยกรรมของระบบ
+- ขั้นตอนการนำไปพัฒนา
+- การแบ่งบทบาทหน้าที่ในทีม
 
-ทดสอบ Connectivity
-
-ทดสอบ Bandwidth
-
-ทดสอบ Failover (ถ้ามี Redundancy)
-
-ตรวจสอบ Latency และ Packet Loss
-
-Output:
-
-Test Report
-
-ปรับปรุง Configuration ให้เหมาะสม
-
-Phase 5: Documentation & Deployment
-
-สรุป Network Configuration
-
-จัดทำ Configuration Script
-
-จัดทำ User Manual
-
-เตรียม Demo การทำงานของระบบ
-
-4. Sprint Planning Detail
-🔵 Sprint 1 (Week 1-2)
-
-Goal: สร้างและทดสอบ Core Network
-
-Tasks:
-
-ออกแบบ Topology ตาม Architecture
-
-กำหนด IP Addressing
-
-ตั้งค่า Router / Switch
-
-ทดสอบการเชื่อมต่อพื้นฐาน
-
-Deliverable:
-
-Network Topology ทำงานได้
-
-เชื่อมต่อทุก Node ได้สำเร็จ
-
-🔵 Sprint 2 (Week 3-4)
-
-Goal: เพิ่ม Security และ Optimization
-
-Tasks:
-
-ตั้งค่า ACL / Firewall
-
-ทดสอบ Security
-
-วิเคราะห์ Performance
-
-จัดทำ Documentation
-
-Deliverable:
-
-ระบบเครือข่ายพร้อมใช้งาน
-
-เอกสารครบถ้วน
-
-Demo พร้อมนำเสนอ
-
-5. Tools & Technologies
-Category	Tools
-Simulation	Cisco Packet Tracer / GNS3
-OS	Windows / Linux
-Documentation	Markdown / GitHub
-Version Control	Git
-Monitoring	Wireshark / Built-in Tools
-6. Risk Management
-Risk	Impact	Mitigation
-Config ผิดพลาด	Network ใช้งานไม่ได้	Backup Config ก่อนแก้ไข
-IP Conflict	เครื่องเชื่อมต่อไม่ได้	วางแผน IP อย่างชัดเจน
-Security Misconfiguration	ระบบไม่ปลอดภัย	ทดสอบ ACL ทุกครั้ง
-เวลาจำกัด	ส่งงานไม่ทัน	แบ่งงานตาม Sprint
-7. Testing Strategy
-
-Connectivity Test (Ping, Traceroute)
-
-Routing Verification
-
-Security Penetration Test (พื้นฐาน)
-
-Load Test (จำลองการใช้งานหลายเครื่อง)
-
-8. Definition of Done (DoD)
-
-งานจะถือว่าเสร็จสมบูรณ์เมื่อ:
-
-Network ทำงานครบตาม Architecture_Spec
-
-มีการตั้งค่า Security ครบถ้วน
-
-ผ่านการทดสอบทุกกรณี
-
-มีเอกสารประกอบครบถ้วน
-
-พร้อม Demo
+เพื่อให้โครงการ **New Network Technology**
+ดำเนินงานได้อย่างเป็นระบบ มีประสิทธิภาพ และสอดคล้องกับแผนงานที่กำหนดไว้
