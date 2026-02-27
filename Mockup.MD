@@ -1,53 +1,63 @@
-# 🧠 Brain-to-Brain Communication System – Mockup
+# 🧠 Aura-Link Communication Architecture (Mockup)
 
 ## 📌 System Overview
-This mockup demonstrates a conceptual Brain-to-Brain Communication system using Brain-Computer Interface (BCI) technology.  
-The system captures neural signals, processes them using AI, transmits them securely through cloud infrastructure, and stimulates the receiver’s brain interface.
+Aura-Link is a conceptual thought-based communication system that processes emotional and relational signals and routes them through a secure quantum-inspired architecture.
 
 ---
 
-## 🏗 Architecture Mockup
+## 🏗 System Architecture Diagram
 
-<p align="center">
-  <img src="images/brain-mockup.png" width="900"/>
-</p>
+```mermaid
+graph TD
 
----
+    subgraph "Layer 1: Input"
+        A[Biological Interface] -- "Biometric Signal" --> B[Aura-Link Protocol]
+    end
 
-## ⚙️ System Flow
+    subgraph "Layer 2: Processing"
+        B -- "Emotion Vector" --> C{Quantum Core Engine}
+    end
 
-### 🧠 Sender
-1. Brain Signal Detection  
-2. Brain Interface Device (BCI)  
-3. Signal Processing  
-4. AI Interpretation  
+    subgraph "Layer 3: Routing & Security"
+        C -- "High Weight (Family/Strong Tie)" --> D[Quantum High-Speed Lane]
+        C -- "Normal Weight (Public/Weak Tie)" --> E[Standard Aura-Link Lane]
+        D --> F{Mind-Wall Firewall}
+        E --> F
+    end
 
-### ☁️ Cloud Network
-5. Encryption Layer  
-6. Secure Communication Server  
-7. Authentication & Data Routing  
-
-### 🧠 Receiver
-8. Receiver Brain Interface  
-9. Brain Stimulation  
-
----
-
-## 🔐 Security Considerations
-
-- End-to-End Encryption  
-- Neural Data Protection  
-- AI Signal Filtering  
-- Firewall & Access Control  
-- Secure Cloud Infrastructure  
+    subgraph "Layer 4: Output"
+        F --> G[Target Node: Receiver]
+    end
+```
 
 ---
 
-## 🚀 Future Enhancement
+## ⚙️ System Logic Mapping
 
-- Real-time Thought Translation  
-- Emotion Mapping  
-- Multi-user Brain Network  
-- Neural Identity Verification  
+| เลเยอร์ (Layer) | ส่วนงาน (Component) | โลจิคในโค้ด (Code Logic) | หน้าที่ (Function) |
+|------------------|----------------------|----------------------------|-----------------------------|
+| **Layer 1** | Biological Interface | `input()` | รับสัญญาณชีพจรจำลอง |
+| **Layer 2** | Aura-Link Protocol | `time.sleep()` | ประมวลผลและเข้ารหัสข้อมูลอารมณ์ |
+| **Layer 3** | Quantum Core | `if tie_score >= 0.7` | เลือกเส้นทางส่งข้อมูลตามความสัมพันธ์ |
+| **Layer 4** | Mind-Wall Firewall | Security Check | ตรวจสอบความปลอดภัยก่อนส่งออก |
+| **Layer 5** | Output | `print()` | ยืนยันการส่งข้อมูลถึงผู้รับ |
+
+---
+
+## 🔐 Security Concept
+
+- Emotional-weight routing
+- Relationship-based prioritization
+- Firewall verification before delivery
+- Secure emotional signal transmission
+
+---
+
+## 🚀 Concept Highlights
+
+- Emotion Vector Processing  
+- Weighted Relationship Routing  
+- Quantum-inspired Secure Communication  
+- Multi-layer Neural Architecture  
 
 ---
