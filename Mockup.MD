@@ -1,38 +1,53 @@
-```mermaid
-flowchart TB
+# 🧠 Brain-to-Brain Communication System – Mockup
 
-    subgraph Edge Layer
-        IoT1[IoT Sensor]
-        IoT2[CCTV Camera]
-        IoT3[Smart Device]
-    end
+## 📌 System Overview
+This mockup demonstrates a conceptual Brain-to-Brain Communication system using Brain-Computer Interface (BCI) technology.  
+The system captures neural signals, processes them using AI, transmits them securely through cloud infrastructure, and stimulates the receiver’s brain interface.
 
-    subgraph Connectivity Layer
-        ISP[5G Network / ISP]
-        Edge[Edge Gateway]
-    end
+---
 
-    subgraph Cloud Layer
-        LB[Load Balancer]
-        APP[Application Server]
-        DB[(Database)]
-    end
+## 🏗 Architecture Mockup
 
-    subgraph Security Layer
-        FW[Firewall]
-        VLAN[VLAN]
-        SSL[SSL/TLS]
-        ACL[ACL]
-    end
+<p align="center">
+  <img src="images/brain-mockup.png" width="900"/>
+</p>
 
-    IoT1 --> Edge
-    IoT2 --> Edge
-    IoT3 --> Edge
+---
 
-    Edge --> ISP
-    ISP --> LB
-    LB --> APP
-    APP --> DB
+## ⚙️ System Flow
 
-    APP --> FW --> VLAN --> SSL --> ACL
-```
+### 🧠 Sender
+1. Brain Signal Detection  
+2. Brain Interface Device (BCI)  
+3. Signal Processing  
+4. AI Interpretation  
+
+### ☁️ Cloud Network
+5. Encryption Layer  
+6. Secure Communication Server  
+7. Authentication & Data Routing  
+
+### 🧠 Receiver
+8. Receiver Brain Interface  
+9. Brain Stimulation  
+
+---
+
+## 🔐 Security Considerations
+
+- End-to-End Encryption  
+- Neural Data Protection  
+- AI Signal Filtering  
+- Firewall & Access Control  
+- Secure Cloud Infrastructure  
+
+---
+
+## 🚀 Future Enhancement
+
+- Real-time Thought Translation  
+- Emotion Mapping  
+- Multi-user Brain Network  
+- Neural Identity Verification  
+
+---
