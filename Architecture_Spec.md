@@ -13,13 +13,17 @@ Neural Communication Network (NCN) คือระบบสื่อสารผ
 
 ## 2. High-Level Architecture
 
-User Brain
+User Brain 
+
    ↓
 Neural Biochip
+
    ↓
 Neural Router
+
    ↓
 Neural Communication Protocol (NCP)
+
    ↓
 Target Brain
 
