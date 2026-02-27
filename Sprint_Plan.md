@@ -1,50 +1,78 @@
-# 🏃 Sprint Alpha Plan
-Duration: 2 Weeks
-Submission: 20/02/26
+# Sprint Plan – New Network Technology Project
+
+## Project Overview
+This project aims to design and implement a modern network architecture
+using 5G, IoT, Cloud Infrastructure, and Secure Network Design principles.
+
+Duration: 8 Weeks  
+Methodology: Agile (Scrum-based)  
+Sprint Length: 2 Weeks per Sprint  
 
 ---
 
-## Sprint Goal
+# Sprint 1 (Week 1–2)
+## Goal:
+Define requirements and finalize system architecture.
 
-- สร้าง High-Level Architecture
-- ออกแบบ Neural Communication Protocol Concept
-- จัดทำ Mockup
-- เตรียม Project Pitch
+## Tasks:
+- Gather functional & non-functional requirements
+- Research 5G, IoT, and Cloud integration
+- Design High-Level Architecture
+- Select technology stack
+- Define security model
 
----
-
-## Sprint Backlog
-
-| Task | Assigned To | Status |
-|------|------------|--------|
-| Architecture Design | Architect | In Progress |
-| Neural Router Concept | Network Engineer | In Progress |
-| AI Intent Model | AI Specialist | In Progress |
-| Security Analysis | Security Analyst | In Progress |
-| Sprint Documentation | Scrum Lead | In Progress |
+## Deliverables:
+- Architecture_Spec.MD (Finalized)
+- Initial Network Diagram
 
 ---
 
-## Expected Deliverables
+# Sprint 2 (Week 3–4)
+## Goal:
+Build Core Network Infrastructure
 
-- Architecture_Spec.md
-- Implementation_Plan.md
-- Responsibility.md
-- Sprint_Plan.md
-- Pitch Presentation
+## Tasks:
+- Setup cloud environment
+- Configure virtual network
+- Implement IoT simulation
+- Deploy initial services
+- Setup database system
+
+## Deliverables:
+- Working cloud infrastructure
+- Basic connectivity test results
 
 ---
 
-## Risks
+# Sprint 3 (Week 5–6)
+## Goal:
+Implement Security & Monitoring
 
-- Concept complexity สูง
-- ความเข้าใจเรื่อง Brainwave ยังเป็นทฤษฎี
-- เวลา Sprint จำกัด
+## Tasks:
+- Configure Firewall
+- Implement Network Segmentation (VLAN)
+- Apply Encryption (SSL/TLS)
+- Setup monitoring tools
+- Perform penetration testing (basic)
+
+## Deliverables:
+- Secure network configuration
+- Security validation report
 
 ---
 
-## Definition of Done
+# Sprint 4 (Week 7–8)
+## Goal:
+Testing, Optimization & Final Deployment
 
-- เอกสารครบถ้วน
-- Mockup พร้อมอธิบาย
-- สมาชิกทุกคนสามารถอธิบายส่วนของตนได้
+## Tasks:
+- System integration testing
+- Performance testing
+- Bug fixing
+- Documentation finalization
+- Final presentation preparation
+
+## Deliverables:
+- Final working system
+- Full documentation
+- Project presentation
