@@ -1,7 +1,11 @@
 #  Aura-Link Communication Architecture (Mockup)
 
-##  System Overview
-Aura-Link is a conceptual thought-based communication system that processes emotional and relational signals and routes them through a secure quantum-inspired architecture.
+##  ภาพรวมระบบ (System Overview)
+
+Aura-Link เป็นแนวคิดระบบสื่อสารผ่านความคิด
+ที่ประมวลผลสัญญาณทางอารมณ์และระดับความสัมพันธ์
+จากนั้นจัดเส้นทางการส่งข้อมูลผ่านสถาปัตยกรรมที่ได้รับแรงบันดาลใจจากแนวคิดควอนตัม
+โดยเน้นความปลอดภัยของข้อมูลเป็นสำคัญ
 
 ---
 
@@ -46,20 +50,26 @@ graph TD
 
 ---
 
-##  Security Concept
+##  แนวคิดด้านความปลอดภัย (Security Concept)
 
-- Emotional-weight routing
-- Relationship-based prioritization
-- Firewall verification before delivery
-- Secure emotional signal transmission
+- การจัดเส้นทางข้อมูลตามระดับความเข้มของอารมณ์ (Emotional-weight Routing)
+
+- การกำหนดลำดับความสำคัญตามระดับความสัมพันธ์ (Relationship-based Prioritization)
+
+- การตรวจสอบผ่าน Firewall ก่อนส่งถึงผู้รับ
+
+- การส่งข้อมูลอารมณ์แบบปลอดภัยและเข้ารหัส
 
 ---
 
-##  Concept Highlights
+##  จุดเด่นของแนวคิด (Concept Highlights)
 
-- Emotion Vector Processing  
-- Weighted Relationship Routing  
-- Quantum-inspired Secure Communication  
-- Multi-layer Neural Architecture  
+- การประมวลผลเวกเตอร์อารมณ์ (Emotion Vector Processing)
+
+- การจัดเส้นทางตามน้ำหนักความสัมพันธ์ (Weighted Relationship Routing)
+
+- การสื่อสารที่ได้รับแรงบันดาลใจจากแนวคิดควอนตัมและมีความปลอดภัยสูง
+
+- สถาปัตยกรรมแบบหลายชั้น (Multi-layer Neural Architecture) 
 
 ---
