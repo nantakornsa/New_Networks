@@ -73,3 +73,6 @@ graph TD
 - สถาปัตยกรรมแบบหลายชั้น (Multi-layer Neural Architecture) 
 
 ---
+
+## Code : 
+https://colab.research.google.com/drive/1fWvU3AO57wH2GU6DLqaCgbPoLAUPPfal?usp=sharing
