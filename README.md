@@ -1,4 +1,4 @@
-#  Aura-Link: ระบบสื่อสารผ่านความคิด (Brain-to-Brain Communication)
+# Aura-Link: ระบบสื่อสารผ่านการฝังชิปในสมอง
 
 ---
 
