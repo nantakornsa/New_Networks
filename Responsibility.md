@@ -49,4 +49,4 @@
 - Architect ไม่ออกแบบ AI Model ลึก
 - AI Specialist ไม่ยุ่ง Network Layer
 - Security Analyst ให้คำแนะนำ แต่ไม่ override Architecture
-- Scrum Lead ไม่ตัดสินใจเชิงเทคนิค
+- Tester ไม่ตัดสินใจเชิงเทคนิค
